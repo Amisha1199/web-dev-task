@@ -1,0 +1,125 @@
+body{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(76,76,206,1) 49%, rgba(61,99,206,1) 59%, rgba(58,104,206,1) 61%, rgba(51,117,212,1) 80%, rgba(0,212,255,1) 100%);
+}
+.name{
+    color: antiquewhite;
+}
+.header1{
+    padding-top: 10px;
+    text-align: center;
+    color:white;
+    font-family: "Lemonada", cursive;
+    font-size: 30px;
+    margin:auto;
+}
+.header1 p{
+    color: wheat;
+    line-height: 2;
+    flex-wrap: wrap;
+}
+.header2 {
+    color:white;
+    text-align: center;
+    font-size: 20px;
+    color:white;
+    
+    
+}
+.header3{
+    text-align: center;
+    font-size: 20px;
+    color:rgb(232, 136, 168);
+    padding:10px 10px;
+    
+    
+}
+
+.image-selection img{
+    border-radius: 50%;
+    height: 130px;
+    width: 130px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    
+
+}
+
+.card1{
+    display: flex;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.card1:hover{
+    background-color:rgb(5, 5, 48);
+    border-radius: 12px;;
+}
+
+.teams{
+    text-align: center;
+
+}
+
+.top{
+    display:flex;
+    justify-content: center;
+    margin:50px 50px;
+    justify-content: space-evenly;
+      
+}
+.top1{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    justify-content:space-evenly;
+    
+}
+
+.bottom{
+    display: flex;
+    justify-content:center;
+    margin:70px 70px;
+    justify-content: space-evenly;
+   
+}
+.name{
+    padding:12px;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    
+}
+.desig{
+    font-style: italic;
+    color:#e98c8c;
+    padding: 10px;
+}
+@media screen and (max-width: 750px){
+    .top{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .top{
+        width:85%;
+        margin:25px auto;
+    }
+    .bottom{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .bottom{
+        width:85%;
+        margin: 25px auto;
+    }
+    .top1{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .top1{
+        width:85%;
+        margin:25px auto;
+    }
+    
+    }
